@@ -1,0 +1,14 @@
+com/example/tasktracker/model/User.class
+com/example/tasktracker/dto/AuthRequest.class
+com/example/tasktracker/util/JwtUtil.class
+com/example/tasktracker/controller/TaskController.class
+com/example/tasktracker/repository/UserRepository.class
+com/example/tasktracker/model/User$Role.class
+com/example/tasktracker/auth/JwtFilter.class
+com/example/tasktracker/model/Task.class
+com/example/tasktracker/config/SecurityConfig.class
+com/example/tasktracker/controller/AuthController.class
+com/example/tasktracker/service/TaskService.class
+com/example/tasktracker/TaskTrackerApplication.class
+com/example/tasktracker/repository/TaskRepository.class
+com/example/tasktracker/security/CustomUserDetailsService.class

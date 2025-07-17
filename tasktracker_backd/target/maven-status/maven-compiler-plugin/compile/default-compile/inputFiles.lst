@@ -1,0 +1,13 @@
+/Users/Das/Desktop/tasktracker_backd/src/main/java/com/example/tasktracker/security/CustomUserDetailsService.java
+/Users/Das/Desktop/tasktracker_backd/src/main/java/com/example/tasktracker/dto/AuthRequest.java
+/Users/Das/Desktop/tasktracker_backd/src/main/java/com/example/tasktracker/model/Task.java
+/Users/Das/Desktop/tasktracker_backd/src/main/java/com/example/tasktracker/model/User.java
+/Users/Das/Desktop/tasktracker_backd/src/main/java/com/example/tasktracker/controller/TaskController.java
+/Users/Das/Desktop/tasktracker_backd/src/main/java/com/example/tasktracker/config/SecurityConfig.java
+/Users/Das/Desktop/tasktracker_backd/src/main/java/com/example/tasktracker/TaskTrackerApplication.java
+/Users/Das/Desktop/tasktracker_backd/src/main/java/com/example/tasktracker/service/TaskService.java
+/Users/Das/Desktop/tasktracker_backd/src/main/java/com/example/tasktracker/auth/JwtFilter.java
+/Users/Das/Desktop/tasktracker_backd/src/main/java/com/example/tasktracker/controller/AuthController.java
+/Users/Das/Desktop/tasktracker_backd/src/main/java/com/example/tasktracker/repository/UserRepository.java
+/Users/Das/Desktop/tasktracker_backd/src/main/java/com/example/tasktracker/repository/TaskRepository.java
+/Users/Das/Desktop/tasktracker_backd/src/main/java/com/example/tasktracker/util/JwtUtil.java
