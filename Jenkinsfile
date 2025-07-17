@@ -33,24 +33,5 @@ pipeline {
                 sh 'mvn package'
             }
         }
-
-        stage('Docker Build & Push') {
-            steps {
-                sh '''
-                    docker build -t $IMAGE_NAME:$IMAGE_TAG .
-                    echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-                    docker push $IMAGE_NAME:$IMAGE_TAG
-                '''
-            }
-        }
-
-        stage('Deploy to Kubernetes') {
-            steps {
-                sh '''
-                    kubectl apply -f k8s/deployment.yaml
-                    kubectl apply -f k8s/service.yaml
-                '''
-            }
-        }
     }
 }
