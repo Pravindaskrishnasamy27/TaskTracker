@@ -16,11 +16,11 @@ pipeline {
             }
         }
 
-        stage('Build') {
-            steps {
-                sh 'mvn clean install'
-            }
-        }
+        stage('Build'){
+    steps {
+        sh 'mvn -f tasktracker_backd/pom.xml clean install'
+    }
+}
 
         stage('Test') {
             steps {
